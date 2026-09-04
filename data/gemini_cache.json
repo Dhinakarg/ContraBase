@@ -1,0 +1,191 @@
+{
+  "FABA5771EB4B6C5944450BD8C2001ECBE335D2CD1DF7B6B3AF5D85D5F5799F6A": {
+    "decision": {
+      "source_record_id": "LED_888",
+      "decision": "match"
+    },
+    "cached_at": "2026-01-01"
+  },
+  "598969813CC9E0190013836CEED66E3417ED3E1CB44121ACEDBEED17772F59CA": {
+    "version": "v2",
+    "decision_item": {
+      "source_record_id": "LED_20048",
+      "candidate_ids": [
+        "BNK_30048",
+        "BNK_30050",
+        "BNK_30049",
+        "INV_10048",
+        "INV_10049"
+      ],
+      "selected_candidate_ids": [
+        "BNK_30048",
+        "BNK_30050"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30049",
+        "INV_10048",
+        "INV_10049"
+      ],
+      "evidence_features": "mock: amount matched, date within 3 days",
+      "decision": "match",
+      "confidence": 92,
+      "reason_code": "reference_typo",
+      "rationale": "Mock adjudication for testing",
+      "suggested_corrective_entry": null
+    },
+    "cached_at": "2026-09-04T20:44:02.616961"
+  },
+  "B6326F23E471A7E205D9BBEB91A18CDB7886F11613F52E5A0F28793551404978": {
+    "version": "v2",
+    "decision_item": {
+      "source_record_id": "LED_20049",
+      "candidate_ids": [
+        "BNK_30050",
+        "BNK_30049",
+        "BNK_30048",
+        "INV_10049",
+        "INV_10048"
+      ],
+      "selected_candidate_ids": [
+        "BNK_30050",
+        "BNK_30049"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30048",
+        "INV_10049",
+        "INV_10048"
+      ],
+      "evidence_features": "mock: amount matched, date within 3 days",
+      "decision": "match",
+      "confidence": 92,
+      "reason_code": "reference_typo",
+      "rationale": "Mock adjudication for testing",
+      "suggested_corrective_entry": null
+    },
+    "cached_at": "2026-09-04T20:44:02.632999"
+  },
+  "9080A12219F53AD09ED6F43806DA130639DC36ADEF4E6C124C35EEDF2C3B798A": {
+    "version": "v2",
+    "decision_item": {
+      "source_record_id": "LED_20048",
+      "candidate_ids": [
+        "BNK_30048",
+        "BNK_30050",
+        "BNK_30052",
+        "BNK_30049",
+        "INV_10048",
+        "INV_10049"
+      ],
+      "selected_candidate_ids": [
+        "BNK_30048",
+        "BNK_30050"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30052",
+        "BNK_30049",
+        "INV_10048",
+        "INV_10049"
+      ],
+      "evidence_features": "mock: amount matched, date within 3 days",
+      "decision": "match",
+      "confidence": 92,
+      "reason_code": "reference_typo",
+      "rationale": "Mock adjudication for testing",
+      "suggested_corrective_entry": null
+    },
+    "cached_at": "2026-09-04T20:44:02.873416"
+  },
+  "A762BE549F2079D1AC9B39E48D764BB1B58EFCBB531224B16CE6249F2984BA93": {
+    "version": "v2",
+    "decision_item": {
+      "source_record_id": "LED_20049",
+      "candidate_ids": [
+        "BNK_30049",
+        "BNK_30050",
+        "BNK_30052",
+        "BNK_30048",
+        "INV_10049",
+        "INV_10048"
+      ],
+      "selected_candidate_ids": [
+        "BNK_30049",
+        "BNK_30050"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30052",
+        "BNK_30048",
+        "INV_10049",
+        "INV_10048"
+      ],
+      "evidence_features": "mock: amount matched, date within 3 days",
+      "decision": "match",
+      "confidence": 92,
+      "reason_code": "reference_typo",
+      "rationale": "Mock adjudication for testing",
+      "suggested_corrective_entry": null
+    },
+    "cached_at": "2026-09-04T20:44:02.889058"
+  },
+  "E7B17B03704DE4AD03ED36DFE1288A337BB3084AA6759B86C30664F86D03CDF2": {
+    "version": "v2",
+    "decision_item": {
+      "source_record_id": "LED_20049",
+      "candidate_ids": [
+        "BNK_30049",
+        "BNK_30050",
+        "BNK_30052",
+        "BNK_30048",
+        "INV_10049",
+        "INV_10048"
+      ],
+      "selected_candidate_ids": [
+        "BNK_30049",
+        "BNK_30050"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30052",
+        "BNK_30048",
+        "INV_10049",
+        "INV_10048"
+      ],
+      "evidence_features": "mock: amount matched, date within 3 days",
+      "decision": "match",
+      "confidence": 92,
+      "reason_code": "reference_typo",
+      "rationale": "Mock adjudication for testing",
+      "suggested_corrective_entry": null
+    },
+    "cached_at": "2026-09-04T20:44:03.114649"
+  },
+  "D15FAB1F8901648C3640EB4CE9F7864687B52BF020287D7D82C13387F00456EB": {
+    "version": "v2",
+    "decision_item": {
+      "source_record_id": "LED_20048",
+      "candidate_ids": [
+        "BNK_30048",
+        "BNK_30049",
+        "BNK_30050",
+        "BNK_30052",
+        "INV_10048",
+        "INV_10049"
+      ],
+      "selected_candidate_ids": [
+        "BNK_30048",
+        "BNK_30049"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30050",
+        "BNK_30052",
+        "INV_10048",
+        "INV_10049"
+      ],
+      "evidence_features": "mock: amount matched, date within 3 days",
+      "decision": "match",
+      "confidence": 92,
+      "reason_code": "reference_typo",
+      "rationale": "Mock adjudication for testing",
+      "suggested_corrective_entry": null
+    },
+    "cached_at": "2026-09-04T20:44:03.128676"
+  }
+}

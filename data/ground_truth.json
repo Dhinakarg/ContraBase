@@ -1,0 +1,653 @@
+{
+    "matches": [
+        {
+            "invoice_id": "INV_10001",
+            "ledger_id": "LED_20001",
+            "bank_ids": [
+                "BNK_30001"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10002",
+            "ledger_id": "LED_20002",
+            "bank_ids": [
+                "BNK_30002"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10003",
+            "ledger_id": "LED_20003",
+            "bank_ids": [
+                "BNK_30003"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10004",
+            "ledger_id": "LED_20004",
+            "bank_ids": [
+                "BNK_30004"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10005",
+            "ledger_id": "LED_20005",
+            "bank_ids": [
+                "BNK_30005"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10006",
+            "ledger_id": "LED_20006",
+            "bank_ids": [
+                "BNK_30006"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10007",
+            "ledger_id": "LED_20007",
+            "bank_ids": [
+                "BNK_30007"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10008",
+            "ledger_id": "LED_20008",
+            "bank_ids": [
+                "BNK_30008"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10009",
+            "ledger_id": "LED_20009",
+            "bank_ids": [
+                "BNK_30009"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10010",
+            "ledger_id": "LED_20010",
+            "bank_ids": [
+                "BNK_30010"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10011",
+            "ledger_id": "LED_20011",
+            "bank_ids": [
+                "BNK_30011"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10012",
+            "ledger_id": "LED_20012",
+            "bank_ids": [
+                "BNK_30012"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10013",
+            "ledger_id": "LED_20013",
+            "bank_ids": [
+                "BNK_30013"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10014",
+            "ledger_id": "LED_20014",
+            "bank_ids": [
+                "BNK_30014"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10015",
+            "ledger_id": "LED_20015",
+            "bank_ids": [
+                "BNK_30015"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10016",
+            "ledger_id": "LED_20016",
+            "bank_ids": [
+                "BNK_30016"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10017",
+            "ledger_id": "LED_20017",
+            "bank_ids": [
+                "BNK_30017"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10018",
+            "ledger_id": "LED_20018",
+            "bank_ids": [
+                "BNK_30018"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10019",
+            "ledger_id": "LED_20019",
+            "bank_ids": [
+                "BNK_30019"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10020",
+            "ledger_id": "LED_20020",
+            "bank_ids": [
+                "BNK_30020"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10021",
+            "ledger_id": "LED_20021",
+            "bank_ids": [
+                "BNK_30021"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10022",
+            "ledger_id": "LED_20022",
+            "bank_ids": [
+                "BNK_30022"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10023",
+            "ledger_id": "LED_20023",
+            "bank_ids": [
+                "BNK_30023"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10024",
+            "ledger_id": "LED_20024",
+            "bank_ids": [
+                "BNK_30024"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10025",
+            "ledger_id": "LED_20025",
+            "bank_ids": [
+                "BNK_30025"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10026",
+            "ledger_id": "LED_20026",
+            "bank_ids": [
+                "BNK_30026"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10027",
+            "ledger_id": "LED_20027",
+            "bank_ids": [
+                "BNK_30027"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10028",
+            "ledger_id": "LED_20028",
+            "bank_ids": [
+                "BNK_30028"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10029",
+            "ledger_id": "LED_20029",
+            "bank_ids": [
+                "BNK_30029"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10030",
+            "ledger_id": "LED_20030",
+            "bank_ids": [
+                "BNK_30030"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10031",
+            "ledger_id": "LED_20031",
+            "bank_ids": [
+                "BNK_30031"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10032",
+            "ledger_id": "LED_20032",
+            "bank_ids": [
+                "BNK_30032"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10033",
+            "ledger_id": "LED_20033",
+            "bank_ids": [
+                "BNK_30033"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10034",
+            "ledger_id": "LED_20034",
+            "bank_ids": [
+                "BNK_30034"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10035",
+            "ledger_id": "LED_20035",
+            "bank_ids": [
+                "BNK_30035"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10036",
+            "ledger_id": "LED_20036",
+            "bank_ids": [
+                "BNK_30036"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10037",
+            "ledger_id": "LED_20037",
+            "bank_ids": [
+                "BNK_30037"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10038",
+            "ledger_id": "LED_20038",
+            "bank_ids": [
+                "BNK_30038"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10039",
+            "ledger_id": "LED_20039",
+            "bank_ids": [
+                "BNK_30039"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10040",
+            "ledger_id": "LED_20040",
+            "bank_ids": [
+                "BNK_30040"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10041",
+            "ledger_id": "LED_20041",
+            "bank_ids": [
+                "BNK_30041"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10042",
+            "ledger_id": "LED_20042",
+            "bank_ids": [
+                "BNK_30042"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10043",
+            "ledger_id": "LED_20043",
+            "bank_ids": [
+                "BNK_30043"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10044",
+            "ledger_id": "LED_20044",
+            "bank_ids": [
+                "BNK_30044"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10045",
+            "ledger_id": "LED_20045",
+            "bank_ids": [
+                "BNK_30045"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10046",
+            "ledger_id": "LED_20046",
+            "bank_ids": [
+                "BNK_30046"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10047",
+            "ledger_id": "LED_20047",
+            "bank_ids": [
+                "BNK_30047"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10048",
+            "ledger_id": "LED_20048",
+            "bank_ids": [
+                "BNK_30048"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10049",
+            "ledger_id": "LED_20049",
+            "bank_ids": [
+                "BNK_30049"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10050",
+            "ledger_id": "LED_20050",
+            "bank_ids": [
+                "BNK_30050"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10051",
+            "ledger_id": "LED_20051",
+            "bank_ids": [
+                "BNK_30051"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10052",
+            "ledger_id": "LED_20052",
+            "bank_ids": [
+                "BNK_30052"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10053",
+            "ledger_id": "LED_20053",
+            "bank_ids": [
+                "BNK_30053"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10054",
+            "ledger_id": "LED_20054",
+            "bank_ids": [
+                "BNK_30054"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10055",
+            "ledger_id": "LED_20055",
+            "bank_ids": [
+                "BNK_30055"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10056",
+            "ledger_id": "LED_20056",
+            "bank_ids": [
+                "BNK_30056"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10057",
+            "ledger_id": "LED_20057",
+            "bank_ids": [
+                "BNK_30057"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10058",
+            "ledger_id": "LED_20058",
+            "bank_ids": [
+                "BNK_30058"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10059",
+            "ledger_id": "LED_20059",
+            "bank_ids": [
+                "BNK_30059"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10060",
+            "ledger_id": "LED_20060",
+            "bank_ids": [
+                "BNK_30060"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10061",
+            "ledger_id": "LED_20061",
+            "bank_ids": [
+                "BNK_30061"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10062",
+            "ledger_id": "LED_20062",
+            "bank_ids": [
+                "BNK_30062"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10063",
+            "ledger_id": "LED_20063",
+            "bank_ids": [
+                "BNK_30063"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10064",
+            "ledger_id": "LED_20064",
+            "bank_ids": [
+                "BNK_30064"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10065",
+            "ledger_id": "LED_20065",
+            "bank_ids": [
+                "BNK_30065"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10066",
+            "ledger_id": "LED_20066",
+            "bank_ids": [
+                "BNK_30066"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10067",
+            "ledger_id": "LED_20067",
+            "bank_ids": [
+                "BNK_30067"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10068",
+            "ledger_id": "LED_20068",
+            "bank_ids": [
+                "BNK_30068"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10069",
+            "ledger_id": "LED_20069",
+            "bank_ids": [
+                "BNK_30069"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10070",
+            "ledger_id": "LED_20070",
+            "bank_ids": [
+                "BNK_30070"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10071",
+            "ledger_id": "LED_20071",
+            "bank_ids": [
+                "BNK_30071"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10072",
+            "ledger_id": "LED_20072",
+            "bank_ids": [
+                "BNK_30072"
+            ],
+            "match_type": "exact_match"
+        },
+        {
+            "invoice_id": "INV_10073",
+            "ledger_id": "LED_20073",
+            "bank_ids": [
+                "BNK_30073"
+            ],
+            "match_type": "date_shift"
+        },
+        {
+            "invoice_id": "INV_10074",
+            "ledger_id": "LED_20074",
+            "bank_ids": [
+                "BNK_30074"
+            ],
+            "match_type": "date_shift"
+        },
+        {
+            "invoice_id": "INV_10075",
+            "ledger_id": "LED_20075",
+            "bank_ids": [
+                "BNK_30075"
+            ],
+            "match_type": "date_shift"
+        },
+        {
+            "invoice_id": "INV_10076",
+            "ledger_id": "LED_20076",
+            "bank_ids": [
+                "BNK_30076"
+            ],
+            "match_type": "amount_mismatch"
+        },
+        {
+            "invoice_id": "INV_10077",
+            "ledger_id": "LED_20077",
+            "bank_ids": [
+                "BNK_30077"
+            ],
+            "match_type": "reference_typo"
+        },
+        {
+            "invoice_id": "INV_10078",
+            "ledger_id": "LED_20078",
+            "bank_ids": [
+                "BNK_30078",
+                "BNK_30079"
+            ],
+            "match_type": "split_payment"
+        },
+        {
+            "invoice_id": "INV_10079",
+            "ledger_id": "LED_20079",
+            "bank_ids": [
+                "BNK_30080"
+            ],
+            "match_type": "exact_match"
+        }
+    ],
+    "unmatchable": {
+        "invoice_ids": [
+            "INV_10080"
+        ],
+        "ledger_ids": [],
+        "bank_ids": []
+    },
+    "decoys": {
+        "invoice_ids": [],
+        "ledger_ids": [
+            "LED_20080"
+        ],
+        "bank_ids": []
+    },
+    "fx_rate_usd_inr": 83.5,
+    "multi_currency": false
+}

@@ -1,0 +1,2678 @@
+{
+  "run_id": "RUN_42_160_E0A28E",
+  "metrics": {
+    "true_positives": 73,
+    "false_positives": 7,
+    "false_negatives": 6,
+    "precision": 0.9125,
+    "recall": 0.9240506329113924,
+    "f1_score": 0.9182389937106918
+  },
+  "predictions": [
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20031",
+      "source_record_hash": "1dddca0eb5feb05d",
+      "invoice_id": "INV_10031",
+      "ledger_id": "LED_20031",
+      "bank_ids": [
+        "BNK_30031"
+      ],
+      "source_record_id": "LED_20031",
+      "selected_candidate_ids": [
+        "BNK_30031",
+        "INV_10031"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20001",
+      "source_record_hash": "2c516c030888a090",
+      "invoice_id": "INV_10001",
+      "ledger_id": "LED_20001",
+      "bank_ids": [
+        "BNK_30001"
+      ],
+      "source_record_id": "LED_20001",
+      "selected_candidate_ids": [
+        "BNK_30001",
+        "INV_10001"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20023",
+      "source_record_hash": "b75cc1a467b36e17",
+      "invoice_id": "INV_10023",
+      "ledger_id": "LED_20023",
+      "bank_ids": [
+        "BNK_30023"
+      ],
+      "source_record_id": "LED_20023",
+      "selected_candidate_ids": [
+        "BNK_30023",
+        "INV_10023"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20032",
+      "source_record_hash": "c523ad59b9a5a91c",
+      "invoice_id": "INV_10032",
+      "ledger_id": "LED_20032",
+      "bank_ids": [
+        "BNK_30032"
+      ],
+      "source_record_id": "LED_20032",
+      "selected_candidate_ids": [
+        "BNK_30032",
+        "INV_10032"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20019",
+      "source_record_hash": "27c16d230b0c4c8d",
+      "invoice_id": "INV_10019",
+      "ledger_id": "LED_20019",
+      "bank_ids": [
+        "BNK_30019"
+      ],
+      "source_record_id": "LED_20019",
+      "selected_candidate_ids": [
+        "BNK_30019",
+        "INV_10019"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20029",
+      "source_record_hash": "1f8f80e411909a0f",
+      "invoice_id": "INV_10029",
+      "ledger_id": "LED_20029",
+      "bank_ids": [
+        "BNK_30029"
+      ],
+      "source_record_id": "LED_20029",
+      "selected_candidate_ids": [
+        "BNK_30029",
+        "INV_10029"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20011",
+      "source_record_hash": "e17469a3d6df337f",
+      "invoice_id": "INV_10011",
+      "ledger_id": "LED_20011",
+      "bank_ids": [
+        "BNK_30011"
+      ],
+      "source_record_id": "LED_20011",
+      "selected_candidate_ids": [
+        "BNK_30011",
+        "INV_10011"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20071",
+      "source_record_hash": "6eaade5a80a45576",
+      "invoice_id": "INV_10071",
+      "ledger_id": "LED_20071",
+      "bank_ids": [
+        "BNK_30071"
+      ],
+      "source_record_id": "LED_20071",
+      "selected_candidate_ids": [
+        "BNK_30071",
+        "INV_10071"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20005",
+      "source_record_hash": "ab940f94577ef5ba",
+      "invoice_id": "INV_10005",
+      "ledger_id": "LED_20005",
+      "bank_ids": [
+        "BNK_30005"
+      ],
+      "source_record_id": "LED_20005",
+      "selected_candidate_ids": [
+        "BNK_30005",
+        "INV_10005"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20013",
+      "source_record_hash": "e0ddbd35f07e3095",
+      "invoice_id": "INV_10013",
+      "ledger_id": "LED_20013",
+      "bank_ids": [
+        "BNK_30013"
+      ],
+      "source_record_id": "LED_20013",
+      "selected_candidate_ids": [
+        "BNK_30013",
+        "INV_10013"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20050",
+      "source_record_hash": "3f833ffdbb4a1c31",
+      "invoice_id": "INV_10050",
+      "ledger_id": "LED_20050",
+      "bank_ids": [
+        "BNK_30050"
+      ],
+      "source_record_id": "LED_20050",
+      "selected_candidate_ids": [
+        "BNK_30050",
+        "INV_10050"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20034",
+      "source_record_hash": "ba3efd1eac4c4f7b",
+      "invoice_id": "INV_10034",
+      "ledger_id": "LED_20034",
+      "bank_ids": [
+        "BNK_30034"
+      ],
+      "source_record_id": "LED_20034",
+      "selected_candidate_ids": [
+        "BNK_30034",
+        "INV_10034"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20068",
+      "source_record_hash": "51ab561924794788",
+      "invoice_id": "INV_10068",
+      "ledger_id": "LED_20068",
+      "bank_ids": [
+        "BNK_30068"
+      ],
+      "source_record_id": "LED_20068",
+      "selected_candidate_ids": [
+        "BNK_30068",
+        "INV_10068"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20036",
+      "source_record_hash": "78ea9e10f4673240",
+      "invoice_id": "INV_10036",
+      "ledger_id": "LED_20036",
+      "bank_ids": [
+        "BNK_30036"
+      ],
+      "source_record_id": "LED_20036",
+      "selected_candidate_ids": [
+        "BNK_30036",
+        "INV_10036"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20069",
+      "source_record_hash": "9494a523b6e5da65",
+      "invoice_id": "INV_10069",
+      "ledger_id": "LED_20069",
+      "bank_ids": [
+        "BNK_30069"
+      ],
+      "source_record_id": "LED_20069",
+      "selected_candidate_ids": [
+        "BNK_30069",
+        "INV_10069"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20046",
+      "source_record_hash": "2d8f81ee3d73f63e",
+      "invoice_id": "INV_10046",
+      "ledger_id": "LED_20046",
+      "bank_ids": [
+        "BNK_30046"
+      ],
+      "source_record_id": "LED_20046",
+      "selected_candidate_ids": [
+        "BNK_30046",
+        "INV_10046"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20062",
+      "source_record_hash": "056103c2dfab6cb6",
+      "invoice_id": "INV_10062",
+      "ledger_id": "LED_20062",
+      "bank_ids": [
+        "BNK_30062"
+      ],
+      "source_record_id": "LED_20062",
+      "selected_candidate_ids": [
+        "BNK_30062",
+        "INV_10062"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20056",
+      "source_record_hash": "c27a665c5cefce4c",
+      "invoice_id": "INV_10056",
+      "ledger_id": "LED_20056",
+      "bank_ids": [
+        "BNK_30056"
+      ],
+      "source_record_id": "LED_20056",
+      "selected_candidate_ids": [
+        "BNK_30056",
+        "INV_10056"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20041",
+      "source_record_hash": "bc9546257eda9a06",
+      "invoice_id": "INV_10041",
+      "ledger_id": "LED_20041",
+      "bank_ids": [
+        "BNK_30041"
+      ],
+      "source_record_id": "LED_20041",
+      "selected_candidate_ids": [
+        "BNK_30041",
+        "INV_10041"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20010",
+      "source_record_hash": "d31cc07fd69f4ade",
+      "invoice_id": "INV_10010",
+      "ledger_id": "LED_20010",
+      "bank_ids": [
+        "BNK_30010"
+      ],
+      "source_record_id": "LED_20010",
+      "selected_candidate_ids": [
+        "BNK_30010",
+        "INV_10010"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20065",
+      "source_record_hash": "fced85d094f497e2",
+      "invoice_id": "INV_10065",
+      "ledger_id": "LED_20065",
+      "bank_ids": [
+        "BNK_30065"
+      ],
+      "source_record_id": "LED_20065",
+      "selected_candidate_ids": [
+        "BNK_30065",
+        "INV_10065"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20006",
+      "source_record_hash": "faa7f71b62c152b9",
+      "invoice_id": "INV_10006",
+      "ledger_id": "LED_20006",
+      "bank_ids": [
+        "BNK_30006"
+      ],
+      "source_record_id": "LED_20006",
+      "selected_candidate_ids": [
+        "BNK_30006",
+        "INV_10006"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20048",
+      "source_record_hash": "381e11b64a8f5e95",
+      "invoice_id": "INV_10048",
+      "ledger_id": "LED_20048",
+      "bank_ids": [
+        "BNK_30048"
+      ],
+      "source_record_id": "LED_20048",
+      "selected_candidate_ids": [
+        "BNK_30048",
+        "INV_10048"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20035",
+      "source_record_hash": "362f45f3672667b1",
+      "invoice_id": "INV_10035",
+      "ledger_id": "LED_20035",
+      "bank_ids": [
+        "BNK_30035"
+      ],
+      "source_record_id": "LED_20035",
+      "selected_candidate_ids": [
+        "BNK_30035",
+        "INV_10035"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20063",
+      "source_record_hash": "f6fa830e56ae49b7",
+      "invoice_id": "INV_10063",
+      "ledger_id": "LED_20063",
+      "bank_ids": [
+        "BNK_30063"
+      ],
+      "source_record_id": "LED_20063",
+      "selected_candidate_ids": [
+        "BNK_30063",
+        "INV_10063"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20043",
+      "source_record_hash": "42775ee6f5965ede",
+      "invoice_id": "INV_10043",
+      "ledger_id": "LED_20043",
+      "bank_ids": [
+        "BNK_30043"
+      ],
+      "source_record_id": "LED_20043",
+      "selected_candidate_ids": [
+        "BNK_30043",
+        "INV_10043"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20055",
+      "source_record_hash": "1033f5fd4c6ead6b",
+      "invoice_id": "INV_10055",
+      "ledger_id": "LED_20055",
+      "bank_ids": [
+        "BNK_30055"
+      ],
+      "source_record_id": "LED_20055",
+      "selected_candidate_ids": [
+        "BNK_30055",
+        "INV_10055"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20017",
+      "source_record_hash": "bd639076d18b3ee2",
+      "invoice_id": "INV_10017",
+      "ledger_id": "LED_20017",
+      "bank_ids": [
+        "BNK_30017"
+      ],
+      "source_record_id": "LED_20017",
+      "selected_candidate_ids": [
+        "BNK_30017",
+        "INV_10017"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20040",
+      "source_record_hash": "9a804c81bde90de0",
+      "invoice_id": "INV_10040",
+      "ledger_id": "LED_20040",
+      "bank_ids": [
+        "BNK_30040"
+      ],
+      "source_record_id": "LED_20040",
+      "selected_candidate_ids": [
+        "BNK_30040",
+        "INV_10040"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20057",
+      "source_record_hash": "a853cb8a8d00ea86",
+      "invoice_id": "INV_10057",
+      "ledger_id": "LED_20057",
+      "bank_ids": [
+        "BNK_30057"
+      ],
+      "source_record_id": "LED_20057",
+      "selected_candidate_ids": [
+        "BNK_30057",
+        "INV_10057"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20080",
+      "source_record_hash": "ecaa77f3a685c958",
+      "invoice_id": "INV_10079",
+      "ledger_id": "LED_20080",
+      "bank_ids": [
+        "BNK_30080"
+      ],
+      "source_record_id": "LED_20080",
+      "selected_candidate_ids": [
+        "BNK_30080",
+        "INV_10079"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20008",
+      "source_record_hash": "77fc5b69cc56ee23",
+      "invoice_id": "INV_10008",
+      "ledger_id": "LED_20008",
+      "bank_ids": [
+        "BNK_30008"
+      ],
+      "source_record_id": "LED_20008",
+      "selected_candidate_ids": [
+        "BNK_30008",
+        "INV_10008"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20051",
+      "source_record_hash": "a65127454f7d16d4",
+      "invoice_id": "INV_10051",
+      "ledger_id": "LED_20051",
+      "bank_ids": [
+        "BNK_30051"
+      ],
+      "source_record_id": "LED_20051",
+      "selected_candidate_ids": [
+        "BNK_30051",
+        "INV_10051"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20054",
+      "source_record_hash": "237ada0ce36cde28",
+      "invoice_id": "INV_10054",
+      "ledger_id": "LED_20054",
+      "bank_ids": [
+        "BNK_30054"
+      ],
+      "source_record_id": "LED_20054",
+      "selected_candidate_ids": [
+        "BNK_30054",
+        "INV_10054"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20020",
+      "source_record_hash": "d79e77b8ccae075e",
+      "invoice_id": "INV_10020",
+      "ledger_id": "LED_20020",
+      "bank_ids": [
+        "BNK_30020"
+      ],
+      "source_record_id": "LED_20020",
+      "selected_candidate_ids": [
+        "BNK_30020",
+        "INV_10020"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20067",
+      "source_record_hash": "0b1030b401567901",
+      "invoice_id": "INV_10067",
+      "ledger_id": "LED_20067",
+      "bank_ids": [
+        "BNK_30067"
+      ],
+      "source_record_id": "LED_20067",
+      "selected_candidate_ids": [
+        "BNK_30067",
+        "INV_10067"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20026",
+      "source_record_hash": "d425e4f9f6377643",
+      "invoice_id": "INV_10026",
+      "ledger_id": "LED_20026",
+      "bank_ids": [
+        "BNK_30026"
+      ],
+      "source_record_id": "LED_20026",
+      "selected_candidate_ids": [
+        "BNK_30026",
+        "INV_10026"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20045",
+      "source_record_hash": "cc971db9977a3ba3",
+      "invoice_id": "INV_10045",
+      "ledger_id": "LED_20045",
+      "bank_ids": [
+        "BNK_30045"
+      ],
+      "source_record_id": "LED_20045",
+      "selected_candidate_ids": [
+        "BNK_30045",
+        "INV_10045"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20014",
+      "source_record_hash": "fee72066234ba742",
+      "invoice_id": "INV_10014",
+      "ledger_id": "LED_20014",
+      "bank_ids": [
+        "BNK_30014"
+      ],
+      "source_record_id": "LED_20014",
+      "selected_candidate_ids": [
+        "BNK_30014",
+        "INV_10014"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20004",
+      "source_record_hash": "8a2524dbd33114fa",
+      "invoice_id": "INV_10004",
+      "ledger_id": "LED_20004",
+      "bank_ids": [
+        "BNK_30004"
+      ],
+      "source_record_id": "LED_20004",
+      "selected_candidate_ids": [
+        "BNK_30004",
+        "INV_10004"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20018",
+      "source_record_hash": "5956b926b7cc4c99",
+      "invoice_id": "INV_10018",
+      "ledger_id": "LED_20018",
+      "bank_ids": [
+        "BNK_30018"
+      ],
+      "source_record_id": "LED_20018",
+      "selected_candidate_ids": [
+        "BNK_30018",
+        "INV_10018"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20039",
+      "source_record_hash": "d5b85d661460267f",
+      "invoice_id": "INV_10039",
+      "ledger_id": "LED_20039",
+      "bank_ids": [
+        "BNK_30039"
+      ],
+      "source_record_id": "LED_20039",
+      "selected_candidate_ids": [
+        "BNK_30039",
+        "INV_10039"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20009",
+      "source_record_hash": "5b2e9815e2ef2dfc",
+      "invoice_id": "INV_10009",
+      "ledger_id": "LED_20009",
+      "bank_ids": [
+        "BNK_30009"
+      ],
+      "source_record_id": "LED_20009",
+      "selected_candidate_ids": [
+        "BNK_30009",
+        "INV_10009"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20066",
+      "source_record_hash": "19b3581df0d83b10",
+      "invoice_id": "INV_10066",
+      "ledger_id": "LED_20066",
+      "bank_ids": [
+        "BNK_30066"
+      ],
+      "source_record_id": "LED_20066",
+      "selected_candidate_ids": [
+        "BNK_30066",
+        "INV_10066"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20007",
+      "source_record_hash": "8d133f656dfb8a9c",
+      "invoice_id": "INV_10007",
+      "ledger_id": "LED_20007",
+      "bank_ids": [
+        "BNK_30007"
+      ],
+      "source_record_id": "LED_20007",
+      "selected_candidate_ids": [
+        "BNK_30007",
+        "INV_10007"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20037",
+      "source_record_hash": "b722f5b99ae9a2d0",
+      "invoice_id": "INV_10037",
+      "ledger_id": "LED_20037",
+      "bank_ids": [
+        "BNK_30037"
+      ],
+      "source_record_id": "LED_20037",
+      "selected_candidate_ids": [
+        "BNK_30037",
+        "INV_10037"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20059",
+      "source_record_hash": "e6fb0edd392cf9e7",
+      "invoice_id": "INV_10059",
+      "ledger_id": "LED_20059",
+      "bank_ids": [
+        "BNK_30059"
+      ],
+      "source_record_id": "LED_20059",
+      "selected_candidate_ids": [
+        "BNK_30059",
+        "INV_10059"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20047",
+      "source_record_hash": "78b64b0053cffd89",
+      "invoice_id": "INV_10047",
+      "ledger_id": "LED_20047",
+      "bank_ids": [
+        "BNK_30047"
+      ],
+      "source_record_id": "LED_20047",
+      "selected_candidate_ids": [
+        "BNK_30047",
+        "INV_10047"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20079",
+      "source_record_hash": "43681346d9ddfcf7",
+      "invoice_id": "INV_10079",
+      "ledger_id": "LED_20079",
+      "bank_ids": [
+        "BNK_30080"
+      ],
+      "source_record_id": "LED_20079",
+      "selected_candidate_ids": [
+        "BNK_30080",
+        "INV_10079"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20016",
+      "source_record_hash": "3a39561c570b415b",
+      "invoice_id": "INV_10016",
+      "ledger_id": "LED_20016",
+      "bank_ids": [
+        "BNK_30016"
+      ],
+      "source_record_id": "LED_20016",
+      "selected_candidate_ids": [
+        "BNK_30016",
+        "INV_10016"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20028",
+      "source_record_hash": "336f6fca6d4c44c8",
+      "invoice_id": "INV_10028",
+      "ledger_id": "LED_20028",
+      "bank_ids": [
+        "BNK_30028"
+      ],
+      "source_record_id": "LED_20028",
+      "selected_candidate_ids": [
+        "BNK_30028",
+        "INV_10028"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20042",
+      "source_record_hash": "5a79f94e6b881779",
+      "invoice_id": "INV_10042",
+      "ledger_id": "LED_20042",
+      "bank_ids": [
+        "BNK_30042"
+      ],
+      "source_record_id": "LED_20042",
+      "selected_candidate_ids": [
+        "BNK_30042",
+        "INV_10042"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20027",
+      "source_record_hash": "ad00c24c32a8feaa",
+      "invoice_id": "INV_10027",
+      "ledger_id": "LED_20027",
+      "bank_ids": [
+        "BNK_30027"
+      ],
+      "source_record_id": "LED_20027",
+      "selected_candidate_ids": [
+        "BNK_30027",
+        "INV_10027"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20049",
+      "source_record_hash": "c82e1ab3c0172db4",
+      "invoice_id": "INV_10049",
+      "ledger_id": "LED_20049",
+      "bank_ids": [
+        "BNK_30049"
+      ],
+      "source_record_id": "LED_20049",
+      "selected_candidate_ids": [
+        "BNK_30049",
+        "INV_10049"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20025",
+      "source_record_hash": "93ad30873c67a8cc",
+      "invoice_id": "INV_10025",
+      "ledger_id": "LED_20025",
+      "bank_ids": [
+        "BNK_30025"
+      ],
+      "source_record_id": "LED_20025",
+      "selected_candidate_ids": [
+        "BNK_30025",
+        "INV_10025"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20044",
+      "source_record_hash": "d51f8a8e7cb724b6",
+      "invoice_id": "INV_10044",
+      "ledger_id": "LED_20044",
+      "bank_ids": [
+        "BNK_30044"
+      ],
+      "source_record_id": "LED_20044",
+      "selected_candidate_ids": [
+        "BNK_30044",
+        "INV_10044"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20058",
+      "source_record_hash": "6b01e1a46b3d9fb4",
+      "invoice_id": "INV_10058",
+      "ledger_id": "LED_20058",
+      "bank_ids": [
+        "BNK_30058"
+      ],
+      "source_record_id": "LED_20058",
+      "selected_candidate_ids": [
+        "BNK_30058",
+        "INV_10058"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20012",
+      "source_record_hash": "87a9c4aa2cadf04a",
+      "invoice_id": "INV_10012",
+      "ledger_id": "LED_20012",
+      "bank_ids": [
+        "BNK_30012"
+      ],
+      "source_record_id": "LED_20012",
+      "selected_candidate_ids": [
+        "BNK_30012",
+        "INV_10012"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20033",
+      "source_record_hash": "59e78d539ba2267f",
+      "invoice_id": "INV_10033",
+      "ledger_id": "LED_20033",
+      "bank_ids": [
+        "BNK_30033"
+      ],
+      "source_record_id": "LED_20033",
+      "selected_candidate_ids": [
+        "BNK_30033",
+        "INV_10033"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20060",
+      "source_record_hash": "e7bf407d38042730",
+      "invoice_id": "INV_10060",
+      "ledger_id": "LED_20060",
+      "bank_ids": [
+        "BNK_30060"
+      ],
+      "source_record_id": "LED_20060",
+      "selected_candidate_ids": [
+        "BNK_30060",
+        "INV_10060"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20064",
+      "source_record_hash": "eaac7b69fbfa0ddf",
+      "invoice_id": "INV_10064",
+      "ledger_id": "LED_20064",
+      "bank_ids": [
+        "BNK_30064"
+      ],
+      "source_record_id": "LED_20064",
+      "selected_candidate_ids": [
+        "BNK_30064",
+        "INV_10064"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20070",
+      "source_record_hash": "fad217e5667f125c",
+      "invoice_id": "INV_10070",
+      "ledger_id": "LED_20070",
+      "bank_ids": [
+        "BNK_30070"
+      ],
+      "source_record_id": "LED_20070",
+      "selected_candidate_ids": [
+        "BNK_30070",
+        "INV_10070"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20038",
+      "source_record_hash": "b7a8dce7201b807c",
+      "invoice_id": "INV_10038",
+      "ledger_id": "LED_20038",
+      "bank_ids": [
+        "BNK_30038"
+      ],
+      "source_record_id": "LED_20038",
+      "selected_candidate_ids": [
+        "BNK_30038",
+        "INV_10038"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20030",
+      "source_record_hash": "782873d0d5e89bee",
+      "invoice_id": "INV_10030",
+      "ledger_id": "LED_20030",
+      "bank_ids": [
+        "BNK_30030"
+      ],
+      "source_record_id": "LED_20030",
+      "selected_candidate_ids": [
+        "BNK_30030",
+        "INV_10030"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20002",
+      "source_record_hash": "2bcba5106a53d54a",
+      "invoice_id": "INV_10002",
+      "ledger_id": "LED_20002",
+      "bank_ids": [
+        "BNK_30002"
+      ],
+      "source_record_id": "LED_20002",
+      "selected_candidate_ids": [
+        "BNK_30002",
+        "INV_10002"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20053",
+      "source_record_hash": "d11154045e414eac",
+      "invoice_id": "INV_10053",
+      "ledger_id": "LED_20053",
+      "bank_ids": [
+        "BNK_30053"
+      ],
+      "source_record_id": "LED_20053",
+      "selected_candidate_ids": [
+        "BNK_30053",
+        "INV_10053"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20022",
+      "source_record_hash": "d0d444ec082ee046",
+      "invoice_id": "INV_10022",
+      "ledger_id": "LED_20022",
+      "bank_ids": [
+        "BNK_30022"
+      ],
+      "source_record_id": "LED_20022",
+      "selected_candidate_ids": [
+        "BNK_30022",
+        "INV_10022"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20003",
+      "source_record_hash": "cef3766f31db6d7b",
+      "invoice_id": "INV_10003",
+      "ledger_id": "LED_20003",
+      "bank_ids": [
+        "BNK_30003"
+      ],
+      "source_record_id": "LED_20003",
+      "selected_candidate_ids": [
+        "BNK_30003",
+        "INV_10003"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20024",
+      "source_record_hash": "05caf0814281993e",
+      "invoice_id": "INV_10024",
+      "ledger_id": "LED_20024",
+      "bank_ids": [
+        "BNK_30024"
+      ],
+      "source_record_id": "LED_20024",
+      "selected_candidate_ids": [
+        "BNK_30024",
+        "INV_10024"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20021",
+      "source_record_hash": "d7f7c6a93b263cc4",
+      "invoice_id": "INV_10021",
+      "ledger_id": "LED_20021",
+      "bank_ids": [
+        "BNK_30021"
+      ],
+      "source_record_id": "LED_20021",
+      "selected_candidate_ids": [
+        "BNK_30021",
+        "INV_10021"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20061",
+      "source_record_hash": "2fae842b88657159",
+      "invoice_id": "INV_10061",
+      "ledger_id": "LED_20061",
+      "bank_ids": [
+        "BNK_30061"
+      ],
+      "source_record_id": "LED_20061",
+      "selected_candidate_ids": [
+        "BNK_30061",
+        "INV_10061"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20072",
+      "source_record_hash": "0a91be3046ff8733",
+      "invoice_id": "INV_10072",
+      "ledger_id": "LED_20072",
+      "bank_ids": [
+        "BNK_30072"
+      ],
+      "source_record_id": "LED_20072",
+      "selected_candidate_ids": [
+        "BNK_30072",
+        "INV_10072"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20015",
+      "source_record_hash": "b20f044bed35cdb0",
+      "invoice_id": "INV_10015",
+      "ledger_id": "LED_20015",
+      "bank_ids": [
+        "BNK_30015"
+      ],
+      "source_record_id": "LED_20015",
+      "selected_candidate_ids": [
+        "BNK_30015",
+        "INV_10015"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High confidence, low materiality, and verified evidence auto-approved",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20052",
+      "source_record_hash": "a2451d486181cb82",
+      "invoice_id": "INV_10052",
+      "ledger_id": "LED_20052",
+      "bank_ids": [
+        "BNK_30052"
+      ],
+      "source_record_id": "LED_20052",
+      "selected_candidate_ids": [
+        "BNK_30052",
+        "INV_10052"
+      ],
+      "rejected_candidate_ids": [],
+      "match_type": "exact_match",
+      "status": "auto_accepted",
+      "ai_confidence": 100,
+      "evidence_score": 100.0,
+      "decision_confidence": 100.0,
+      "confidence": 100,
+      "reason_code": "exact_match",
+      "rationale": "Exact match on amount, date, and reference_id.",
+      "policy_reason": "High-materiality transaction permitted for automatic reconciliation because the match is a unique deterministic exact match with exact amount, date, reference, and currency agreement and no unresolved risk signals.",
+      "evidence_features": {
+        "amount_match": "Exact",
+        "date_match": "Exact",
+        "reference_match": "Exact",
+        "currency_match": "Exact",
+        "match_type": "Unique deterministic exact match",
+        "evidence_score": "100%"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20074",
+      "source_record_hash": "f919228750a315ef",
+      "invoice_id": null,
+      "ledger_id": "LED_20074",
+      "bank_ids": [
+        "BNK_30074"
+      ],
+      "source_record_id": "LED_20074",
+      "selected_candidate_ids": [
+        "BNK_30074"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30073",
+        "BNK_30079",
+        "BNK_30078",
+        "BNK_30076",
+        "INV_10074",
+        "INV_10077",
+        "INV_10073"
+      ],
+      "match_type": "ai_date_shift",
+      "status": "needs_review",
+      "ai_confidence": 98.0,
+      "evidence_score": 89.3,
+      "decision_confidence": 92.8,
+      "confidence": 92.8,
+      "reason_code": "date_shift",
+      "rationale": "The bank transaction matches the ledger entry exactly in amount and reference ID, with a minor 4-day date shift and vendor name overlap.",
+      "policy_reason": "High-materiality transaction routed to human review because decision confidence (92.8%) is below the auto-accept threshold (95.0%).",
+      "evidence_features": "Exact amount match, Date shifted 4 days, Vendor name overlap, Exact reference match",
+      "suggested_corrective_entry": null,
+      "validated_journal_entry": null
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20077",
+      "source_record_hash": "349f7d0a9e2b07dc",
+      "invoice_id": null,
+      "ledger_id": "LED_20077",
+      "bank_ids": [
+        "BNK_30077"
+      ],
+      "source_record_id": "LED_20077",
+      "selected_candidate_ids": [
+        "BNK_30077"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30074",
+        "BNK_30073",
+        "BNK_30079",
+        "BNK_30078",
+        "INV_10077",
+        "INV_10074",
+        "INV_10080"
+      ],
+      "match_type": "ai_reference_typo",
+      "status": "needs_review",
+      "ai_confidence": 95.0,
+      "evidence_score": 67.9,
+      "decision_confidence": 78.7,
+      "confidence": 78.7,
+      "reason_code": "reference_typo",
+      "rationale": "The bank transaction matches the ledger entry in amount and vendor, with a 1-day date shift and a minor typo in the reference ID.",
+      "policy_reason": "Medium decision confidence (78.7%) requires human verification",
+      "evidence_features": "Exact amount match, Date shifted 1 day, Vendor name overlap, Reference ID typo",
+      "suggested_corrective_entry": null,
+      "validated_journal_entry": null
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20073",
+      "source_record_hash": "df3438f9dbe508fb",
+      "invoice_id": null,
+      "ledger_id": "LED_20073",
+      "bank_ids": [
+        "BNK_30073"
+      ],
+      "source_record_id": "LED_20073",
+      "selected_candidate_ids": [
+        "BNK_30073"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30076",
+        "BNK_30077",
+        "BNK_30079",
+        "BNK_30078",
+        "INV_10073",
+        "INV_10077",
+        "INV_10078"
+      ],
+      "match_type": "ai_date_shift",
+      "status": "needs_review",
+      "ai_confidence": 98.0,
+      "evidence_score": 89.3,
+      "decision_confidence": 92.8,
+      "confidence": 92.8,
+      "reason_code": "date_shift",
+      "rationale": "The bank transaction matches the ledger entry exactly in amount and reference ID, with a 5-day date shift and vendor name overlap.",
+      "policy_reason": "Medium decision confidence (92.8%) requires human verification",
+      "evidence_features": "Exact amount match, Date shifted 5 days, Vendor name overlap, Exact reference match",
+      "suggested_corrective_entry": null,
+      "validated_journal_entry": null
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20078",
+      "source_record_hash": "0f8371e95e7babef",
+      "invoice_id": null,
+      "ledger_id": "LED_20078",
+      "bank_ids": [
+        "BNK_30079",
+        "BNK_30078"
+      ],
+      "source_record_id": "LED_20078",
+      "selected_candidate_ids": [
+        "BNK_30079",
+        "BNK_30078"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30074",
+        "BNK_30073",
+        "BNK_30076",
+        "INV_10078",
+        "INV_10077",
+        "INV_10074"
+      ],
+      "match_type": "ai_split_payment",
+      "status": "needs_review",
+      "ai_confidence": 100.0,
+      "evidence_score": 75.0,
+      "decision_confidence": 85.0,
+      "confidence": 85.0,
+      "reason_code": "split_payment",
+      "rationale": "Two bank transactions, BNK_30079 and BNK_30078, sum exactly to the ledger amount, sharing the same date, vendor, and reference ID.",
+      "policy_reason": "Medium decision confidence (85.0%) requires human verification",
+      "evidence_features": "Split payment: two bank transactions sum to exact ledger amount, Exact date match, Vendor name overlap, Exact reference match",
+      "suggested_corrective_entry": null,
+      "validated_journal_entry": null
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20076",
+      "source_record_hash": "82cdf2f70dec37f1",
+      "invoice_id": null,
+      "ledger_id": "LED_20076",
+      "bank_ids": [
+        "BNK_30076"
+      ],
+      "source_record_id": "LED_20076",
+      "selected_candidate_ids": [
+        "BNK_30076"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30075",
+        "BNK_30073",
+        "BNK_30079",
+        "BNK_30078",
+        "INV_10076",
+        "INV_10075",
+        "INV_10077"
+      ],
+      "match_type": "ai_amount_variance",
+      "status": "needs_review",
+      "ai_confidence": 97.0,
+      "evidence_score": 78.6,
+      "decision_confidence": 86.0,
+      "confidence": 86.0,
+      "reason_code": "amount_variance",
+      "rationale": "The bank transaction matches the ledger entry with a \u20b91337.08 variance, explicitly noted as a fee, along with a 2-day date shift, vendor, and reference match.",
+      "policy_reason": "Medium decision confidence (86.0%) requires human verification",
+      "evidence_features": "Amount variance of \u20b91337.08 due to bank fees, Date shifted 2 days, Vendor name overlap, Exact reference match",
+      "suggested_corrective_entry": "Debit Bank Fees \u20b91337.08, Credit Cash \u20b91337.08",
+      "validated_journal_entry": {
+        "journal_entry_id": "JE_LED_20076_8519",
+        "source_decision_id": "LED_20076",
+        "debit_account": "Bank Fees",
+        "credit_account": "Cash",
+        "amount": 1337.08,
+        "currency": "INR",
+        "reason_code": "amount_variance",
+        "validation_status": "valid",
+        "validation_errors": [],
+        "auto_post": true,
+        "created_at": "2026-09-04T17:02:19.516093"
+      }
+    },
+    {
+      "run_id": "RUN_3CFE0C8D4A",
+      "decision_id": "DEC_LED_20075",
+      "source_record_hash": "7060f7fd076220f7",
+      "invoice_id": null,
+      "ledger_id": "LED_20075",
+      "bank_ids": [
+        "BNK_30075"
+      ],
+      "source_record_id": "LED_20075",
+      "selected_candidate_ids": [
+        "BNK_30075"
+      ],
+      "rejected_candidate_ids": [
+        "BNK_30076",
+        "BNK_30073",
+        "BNK_30079",
+        "BNK_30078",
+        "INV_10075",
+        "INV_10076",
+        "INV_10077"
+      ],
+      "match_type": "ai_date_shift",
+      "status": "needs_review",
+      "ai_confidence": 98.0,
+      "evidence_score": 89.3,
+      "decision_confidence": 92.8,
+      "confidence": 92.8,
+      "reason_code": "date_shift",
+      "rationale": "Ledger entry LED_20075 matches bank transaction BNK_30075 with exact amount, vendor, and reference, but with a 5-day date difference.",
+      "policy_reason": "Medium decision confidence (92.8%) requires human verification",
+      "evidence_features": "Exact amount, vendor, and reference match; 5-day date shift",
+      "suggested_corrective_entry": null,
+      "validated_journal_entry": null
+    }
+  ]
+}

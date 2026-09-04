@@ -1,0 +1,35 @@
+{
+    "LED_20077": {
+        "record_id": "LED_20077",
+        "reviewer_id": "Auditor_1",
+        "original_ai_decision": "match",
+        "final_decision": "match",
+        "human_reviewed": true,
+        "human_decision": "approved",
+        "human_reviewer_action": "Approve",
+        "human_override": false,
+        "review_timestamp": "2026-08-28T19:04:30.185456"
+    },
+    "LED_20078": {
+        "record_id": "LED_20078",
+        "reviewer_id": "Auditor_1",
+        "original_ai_decision": "match",
+        "final_decision": "no_match",
+        "human_reviewed": true,
+        "human_decision": "rejected",
+        "human_reviewer_action": "Reject",
+        "human_override": true,
+        "review_timestamp": "2026-08-28T19:04:39.401058"
+    },
+    "LED_20076": {
+        "record_id": "LED_20076",
+        "reviewer_id": "Auditor_1",
+        "original_ai_decision": "match",
+        "final_decision": "exception_escalated",
+        "human_reviewed": true,
+        "human_decision": "escalated",
+        "human_reviewer_action": "Escalate",
+        "human_override": true,
+        "review_timestamp": "2026-08-28T19:04:54.174937"
+    }
+}

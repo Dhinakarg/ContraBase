@@ -1,0 +1,20 @@
+{
+  "run_id": "RUN_42_160_71C4EB",
+  "seed": 42,
+  "record_count": 160,
+  "noise_level": 0.15,
+  "multi_currency": false,
+  "base_currency": "INR",
+  "materiality_threshold_inr": 500000.0,
+  "pipeline_version": "1.0",
+  "prompt_version": "v1.0",
+  "model_name": "gemini-2.5-flash",
+  "created_at": "2026-08-28T20:19:22.638504",
+  "status": "completed",
+  "configuration_hash": "B01419B122BFCA76",
+  "exec_time": 45.43,
+  "throughput": 3.5,
+  "gemini_calls": 2,
+  "cached_ai_decisions": 0,
+  "completed_at": "2026-08-28T20:19:22.657938"
+}
