@@ -27,6 +27,13 @@ from views.safety_verification import render_safety_verification_view
 
 load_dotenv()
 
+# Sync GEMINI_API_KEY from st.secrets if running on Streamlit Cloud
+try:
+    if hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets and not os.getenv("GEMINI_API_KEY"):
+        os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
+except Exception:
+    pass
+
 # Page config
 st.set_page_config(
     page_title="ContraBase",
