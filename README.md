@@ -10,7 +10,7 @@ An AI-powered finance controller engine for corporate month-end reconciliation, 
 
 ContraBase executes a multi-layered reconciliation pipeline that reconciles internal ledgers, bank statements, and vendor invoices while enforcing enterprise financial safety, ground-truth isolation, evidence calibration, and human-in-the-loop governance:
 
-1. **Pass 1 (Deterministic Matching Engine)**: High-speed pandas exact matching on amount, date, reference ID, and currency. Resolves **>85% of standard transaction volume** at throughputs up to **752.5 records/second** at zero LLM cost.
+1. **Pass 1 (Deterministic Matching Engine)**: High-speed pandas exact matching on amount, date, reference ID, and currency. Resolves **>85% of standard transaction volume** at throughputs exceeding **750+ records/second** (with full end-to-end pipeline execution including Gemini LLM network adjudication averaging ~125–150 records/second on standard demo batches).
 2. **Candidate Generation**: Deterministic candidate ranking (`candidates.py`) surfaces top plausible candidates for unmatched records using INR-normalized amounts (`amount_inr`), date proximity, and reference similarity.
 3. **Pass 2 (Candidate-Bounded Gemini Adjudication)**: Gemini 2.5 Flash batch adjudication for unmatched records, evaluating bounded candidate sets and returning structured JSON decisions. Under API limits or empty responses, an **honest fallback mechanism** routes items to `status: exception` with `ai_confidence: 0.0` without fabricating decisions.
 4. **Multi-Layer System Confidence**: Blends candidate evidence scores (60%) and AI self-reported confidence (40%). Empirical calibration demonstrates **99.0% ground-truth accuracy** in the 95–100% confidence band.
@@ -84,7 +84,7 @@ py -c "from benchmark import BenchmarkRunner; results = BenchmarkRunner.run_five
 
 ## 🎭 Narration & Live Demo Guide
 
-1. **Initial Dashboard State**: Point out the Executive Month-End Close banner showing Operational Close Status, record breakdown, and Pass 1 deterministic throughput (752.5 records/second).
+1. **Initial Dashboard State**: Point out the Executive Month-End Close banner showing Operational Close Status, record breakdown, and active pipeline throughput (e.g. 126.7 records/second end-to-end; 750+ records/sec in pure Pass 1 matching).
 2. **Load Demo Preset**: Click **🎭 Load Demo Preset** in the sidebar. This loads Seed 42 (160 records, 15% noise) showcasing exact matches, date shifts, reference typos, split payments, duplicate decoys, and exceptions.
 3. **Toggle Multi-Currency**: Toggle **🌐 Multi-Currency (INR/USD)** to generate foreign USD transactions and observe FX-aware candidate ranking with dual currency display (`$10,000 USD (₹8,35,000 INR equiv)`).
 4. **Governance Safety Gates**: Explain Gate A (Transaction Materiality cap) and Gate B (Corrective Journal Auto-Post cap $< ₹4,000$).
