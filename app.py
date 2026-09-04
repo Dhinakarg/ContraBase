@@ -14,7 +14,8 @@ from review_engine import HumanReviewEngine
 from persistence import compute_config_hash, RunStore
 from ui_common import (
     DATA_DIR, INVOICES_PATH, LEDGER_PATH, BANK_PATH, TRUTH_PATH, LOG_PATH,
-    inject_custom_styles, load_reconciliation_context, trigger_scroll_to_top
+    inject_custom_styles, load_reconciliation_context, trigger_scroll_to_top,
+    resolve_gemini_key
 )
 from views.overview import render_overview_view
 from views.reconciliation import render_reconciliation_view
@@ -27,12 +28,8 @@ from views.safety_verification import render_safety_verification_view
 
 load_dotenv()
 
-# Sync GEMINI_API_KEY from st.secrets if running on Streamlit Cloud
-try:
-    if hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets and not os.getenv("GEMINI_API_KEY"):
-        os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
-except Exception:
-    pass
+# Resolve Gemini API key from environment, session state, or Streamlit Cloud Secrets
+resolve_gemini_key()
 
 # Page config
 st.set_page_config(
@@ -310,7 +307,8 @@ for p in config_pages:
         st.rerun()
 
 # Gemini connection status at bottom of sidebar (Required by Task)
-gemini_key_exists = os.getenv("GEMINI_API_KEY") is not None
+gemini_key = resolve_gemini_key()
+gemini_key_exists = bool(gemini_key)
 st.sidebar.markdown("---")
 if gemini_key_exists:
     st.sidebar.markdown("""

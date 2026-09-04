@@ -17,6 +17,47 @@ TRUTH_PATH = os.path.join(DATA_DIR, "ground_truth.json")
 LOG_PATH = os.path.join(DATA_DIR, "decisions_log.jsonl")
 
 
+def resolve_gemini_key() -> str:
+    """
+    Dynamically resolves the Gemini API key from:
+    1. os.environ ("GEMINI_API_KEY" or "GOOGLE_API_KEY")
+    2. st.session_state.custom_gemini_key (session-level override in Settings UI)
+    3. st.secrets (Streamlit Community Cloud Secrets)
+    """
+    # 1. Check existing environment variables
+    key = os.getenv("GEMINI_API_KEY", "").strip()
+    if key:
+        return key
+    key = os.getenv("GOOGLE_API_KEY", "").strip()
+    if key:
+        os.environ["GEMINI_API_KEY"] = key
+        return key
+
+    # 2. Check Streamlit session state
+    try:
+        if hasattr(st, "session_state") and "custom_gemini_key" in st.session_state:
+            k = str(st.session_state.custom_gemini_key or "").strip()
+            if k:
+                os.environ["GEMINI_API_KEY"] = k
+                return k
+    except Exception:
+        pass
+
+    # 3. Check Streamlit Cloud Secrets (case-insensitively and safe)
+    try:
+        if hasattr(st, "secrets"):
+            for cand in ["GEMINI_API_KEY", "gemini_api_key", "GOOGLE_API_KEY", "google_api_key"]:
+                if cand in st.secrets and st.secrets[cand]:
+                    val = str(st.secrets[cand]).strip()
+                    if val:
+                        os.environ["GEMINI_API_KEY"] = val
+                        return val
+    except Exception:
+        pass
+
+    return ""
+
+
 def format_inr(amount: float) -> str:
     """Formats a currency amount into Indian Rupee style with lakhs/crores commas (e.g. ₹12,34,567.89)."""
     try:

@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 import pandas as pd
-from ui_common import render_page_header, format_inr, DATA_DIR, INVOICES_PATH, LEDGER_PATH, BANK_PATH
+from ui_common import render_page_header, format_inr, DATA_DIR, INVOICES_PATH, LEDGER_PATH, BANK_PATH, resolve_gemini_key
 from backend.data_gen.generator import generate_reconciliation_data
 
 
@@ -382,11 +382,47 @@ def render_settings_view(context: dict, on_run_reconciliation):
         st.caption("View Gemini LLM connection parameters, active run metadata, and persistent store status.")
         st.write("")
 
-        gemini_key_exists = os.getenv("GEMINI_API_KEY") is not None
+        gemini_key = resolve_gemini_key()
+        gemini_key_exists = bool(gemini_key)
+
         if gemini_key_exists:
             st.markdown("<span style='font-size: 15px; color: #4caf50; font-weight: bold;'>🟢 Gemini Connected</span>", unsafe_allow_html=True)
+            if st.session_state.get("custom_gemini_key"):
+                st.caption("Custom session key is currently active.")
+                if st.button("Disconnect Session Key", key="btn_disconnect_gemini"):
+                    st.session_state.custom_gemini_key = ""
+                    if "GEMINI_API_KEY" in os.environ:
+                        del os.environ["GEMINI_API_KEY"]
+                    st.rerun()
         else:
             st.markdown("<span style='font-size: 15px; color: #f44336; font-weight: bold;'>🔴 Gemini Not Configured</span>", unsafe_allow_html=True)
+            
+            st.markdown("""
+            <div style="background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 6px; padding: 12px; margin-top: 8px; margin-bottom: 12px; font-size: 13px; line-height: 1.5;">
+                <strong style="color: #f87171;">How to configure Gemini in Streamlit Cloud:</strong><br>
+                1. Go to your app dashboard at <a href="https://share.streamlit.io" target="_blank" style="color: #60a5fa;">share.streamlit.io</a>.<br>
+                2. Click the <strong>⋮</strong> menu next to your app &rarr; <strong>Settings</strong> &rarr; <strong>Secrets</strong>.<br>
+                3. Paste the following snippet and save:<br>
+                <code style="display: block; background: rgba(0,0,0,0.3); padding: 6px 10px; border-radius: 4px; margin-top: 4px; color: #34d399;">GEMINI_API_KEY = "your-gemini-api-key"</code>
+            </div>
+            """, unsafe_allow_html=True)
+
+            st.markdown("##### 🔑 Or connect for this session:")
+            temp_key = st.text_input(
+                "Gemini API Key",
+                type="password",
+                placeholder="Paste AIzaSy... key here",
+                key="input_temp_gemini_key",
+                help="Key is stored in session memory only and will enable Gemini adjudication immediately."
+            )
+            if st.button("Connect Key", key="btn_connect_gemini_key", type="primary"):
+                if temp_key.strip():
+                    st.session_state.custom_gemini_key = temp_key.strip()
+                    resolve_gemini_key()
+                    st.success("Gemini key activated! Refreshing...")
+                    st.rerun()
+                else:
+                    st.warning("Please enter a valid API key.")
 
         st.write("")
         st.text_input("Active LLM Model", value="gemini-2.5-flash", disabled=True, help="Gemini API model engine.")
