@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import streamlit as st
 from google import genai
-from ui_common import render_page_header, format_inr, format_inr_compact
+from ui_common import render_page_header, format_inr, format_inr_compact, resolve_gemini_key
 
 
 def render_reconciliation_view(context: dict, on_run_reconciliation, on_load_demo):
@@ -330,7 +330,8 @@ def render_reconciliation_view(context: dict, on_run_reconciliation, on_load_dem
     st.subheader("💬 Ask Gemini About Reconciliations")
     st.caption("Ask questions about reconciliation decisions, anomalies, splits, or variance allocations.")
     
-    gemini_key_exists = os.getenv("GEMINI_API_KEY") is not None
+    gemini_key = resolve_gemini_key()
+    gemini_key_exists = bool(gemini_key)
     
     with st.form(key="gemini_qa_form", clear_on_submit=False):
         q_input = st.text_input("Ask a question:", placeholder="e.g. 'Are there duplicate bank transaction decoys?' or 'Why wasn't Ryan PLC transaction matched?'")
@@ -361,7 +362,7 @@ def render_reconciliation_view(context: dict, on_run_reconciliation, on_load_dem
                     User Question: {q_input}
                     """
                     
-                    client = genai.Client()
+                    client = genai.Client(api_key=gemini_key)
                     response = client.models.generate_content(
                         model="gemini-2.5-flash",
                         contents=prompt
