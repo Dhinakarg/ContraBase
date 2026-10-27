@@ -122,8 +122,8 @@ You need **Python 3.10+** (verified through Python 3.13) installed on your syste
 Clone the repository and install required dependencies:
 
 ```bash
-git clone https://github.com/Dhinakarg/Contra_Base.git
-cd Contra_Base
+git clone https://github.com/Dhinakarg/ContraBase.git
+cd ContraBase
 pip install -r requirements.txt
 ```
 
