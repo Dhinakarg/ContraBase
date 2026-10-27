@@ -3,7 +3,7 @@
 An AI-powered autonomous finance controller engine for corporate month-end reconciliation, built with policy-governed automation, deterministic safety controls, and human oversight.
 
 > **Core Philosophy:** *AI advises. Deterministic controls authorize. From reconciliation to close-ready decisions.*  
-> 🎥 **Demo Video:** [Watch ContraBase Walkthrough (Google Drive)](https://drive.google.com/file/d/157VqKgZKq5TNsw6G1ARJVE9Nk7OUPGlE/view?usp=sharing)
+> 🎥 **Demo Video:** [Watch ContraBase Walkthrough](https://drive.google.com/file/d/157VqKgZKq5TNsw6G1ARJVE9Nk7OUPGlE/view?usp=sharing)
 
 ---
 
